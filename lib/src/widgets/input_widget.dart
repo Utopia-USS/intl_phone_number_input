@@ -400,7 +400,7 @@ class _InputWidgetView
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 Padding(
-                  padding: EdgeInsets.only(top: 10),
+                  padding: EdgeInsets.only(top: 6),
                   child: SelectorButton(
                     country: state.country,
                     countries: state.countries,
